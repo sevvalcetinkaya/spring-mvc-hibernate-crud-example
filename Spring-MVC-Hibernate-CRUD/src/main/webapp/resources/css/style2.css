@@ -1,0 +1,73 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFE8; /* Açık Sarı */
+    color: #333; /* Koyu gri metin rengi */
+    margin: 0;
+    padding: 0;
+}
+
+/* Konteyner ve wrapper stilleri */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper {
+    background-color: #d7efbf; /* Açık Pembe */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık stilleri */
+.header {
+    text-align: center;
+}
+
+/* İçerik stilleri */
+.content {
+    margin-top: 20px;
+}
+
+/* Buton stilleri */
+.btn, .btn-link {
+    background-color: #AACB73; /* Yeşil */
+    color: #fff; /* Beyaz metin rengi */
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover, .btn-link:hover {
+    background-color: #CDE990; /* Açık Yeşil */
+}
+
+/* Tablo stilleri */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #AACB73; /* Yeşil */
+    padding: 10px; /* İç boşluk */
+    text-align: left;
+    line-height: 1.5; /* Satır yüksekliğini artır */
+}
+th {
+    background-color: #CDE990; /* Açık Yeşil */
+    color: #333; /* Koyu gri metin rengi */
+}
+
+tr:nth-child(even) {
+    background-color: #f0f5e0; /* Açık Krem */
+}
+
+tr:hover {
+    background-color: #FFD4D4; /* Açık Pembe */
+}

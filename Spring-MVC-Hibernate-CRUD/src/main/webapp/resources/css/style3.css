@@ -1,0 +1,61 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFE8; /* Açık Sarı */
+    color: #333; /* Koyu gri metin rengi */
+    margin: 0;
+    padding: 0;
+}
+
+/* Konteyner ve wrapper stilleri */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper {
+    background-color: #FFD4D4; /* Açık Pembe */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık stilleri */
+.header {
+    text-align: center;
+}
+
+/* Form wrapper stilleri */
+.form-wrapper {
+    margin-top: 20px;
+}
+
+/* Form grubu stilleri */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Giriş alanı stilleri */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #AACB73; /* Yeşil */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Buton stilleri */
+.btn {
+    background-color: #AACB73; /* Yeşil */
+    color: #fff; /* Beyaz metin rengi */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #CDE990; /* Açık Yeşil */
+}

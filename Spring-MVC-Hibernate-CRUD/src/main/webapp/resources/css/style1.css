@@ -1,0 +1,63 @@
+/* Genel stil ayarları */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFE8; /* Açık Sarı */
+    color: #333; /* Koyu gri metin rengi */
+    margin: 0;
+    padding: 0;
+}
+
+/* Başlık stilleri */
+.header {
+    background-color: #FFD4D4; /* Açık Pembe */
+    text-align: center;
+    padding: 30px;
+    border-bottom: 3px solid #AACB73; /* Yeşil */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* İçerik stilleri */
+.content {
+    padding: 40px;
+    text-align: center;
+    background-color: #FFFFFF; /* Beyaz arka plan */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px; /* Maksimum genişlik */
+}
+
+/* Navigasyon stilleri */
+.navigation {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #AACB73; /* Yeşil */
+    color: #fff; /* Beyaz metin rengi */
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    font-size: 16px; /* Font boyutu */
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block; /* Butonun blok gibi görünmesi için */
+}
+
+.btn:hover {
+    background-color: #CDE990; /* Açık Yeşil */
+    transform: scale(1.05); /* Hover efekti ile büyütme */
+}
+
+/* H2 başlık stilleri */
+h2 {
+    color: #6f8623; /* Slate Blue */
+    margin-bottom: 20px; /* Alt boşluk */
+}
+
+/* Paragraf stilleri */
+p {
+    line-height: 1.6; /* Satır yüksekliği */
+    margin: 0; /* Varsayılan margin'i kaldır */
+}
