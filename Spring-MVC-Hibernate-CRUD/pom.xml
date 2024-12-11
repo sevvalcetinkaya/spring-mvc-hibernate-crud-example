@@ -9,8 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>Spring MVC + Hibernate CRUD Operation Maven Webapp</name>
-  <url>https://github.com/MdGhulamAzadAnsari/Spring-MVC-Hibernate-CRUD-Operation</url>
+  
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
