@@ -5,10 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>Spring-MVC-Hibernate-CRUD</artifactId>
+  <artifactId>Spring-MVC-Hibernate-CRUD-Operation</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
+  <name>Spring MVC + Hibernate CRUD Operation Maven Webapp</name>
+  <url>https://github.com/MdGhulamAzadAnsari/Spring-MVC-Hibernate-CRUD-Operation</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,7 +83,7 @@
   </dependencies>
 
   <build>
-    <finalName>Spring MVC + Hibernate CRUD</finalName>
+    <finalName>Spring MVC + Hibernate CRUD Operation</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
